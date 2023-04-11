@@ -21,4 +21,4 @@ app.use('/api/astronomy/landings', landings)
 app.use('/api/astronomy/neas', neas)
 
 
-app.listen(3000, () => console.log("Reptiliano afroamericano"))
+app.listen(3000, () => console.log("Connected to the database port: 3000"))
