@@ -1,0 +1,28 @@
+{
+  "name": "proyectobackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniValero/proyectobackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniValero/proyectobackend/issues"
+  },
+  "homepage": "https://github.com/DaniValero/proyectobackend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.7.0",
+    "mongoose": "^6.7.3"
+  }
+}
