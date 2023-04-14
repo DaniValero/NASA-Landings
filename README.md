@@ -5,6 +5,18 @@ Full Stack web app that geolocates asteroids and shows relevant data such as nam
 
 It uses NASA’s API to get the picture of the day on the main page.
 
+## Demo
+
+https://nasa-landings.vercel.app
+
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/114396949/232008686-c0ea2d8f-2794-4af1-8bd9-25bc40a3a924.png)
+
+![image](https://user-images.githubusercontent.com/114396949/232008946-d6b20204-9386-4baf-ac20-4326ca850743.png)
+
+![image](https://user-images.githubusercontent.com/114396949/232009148-523de5dd-35e6-4281-8a89-f6899343c1e3.png)
+
 
 
 ## Getting Started
