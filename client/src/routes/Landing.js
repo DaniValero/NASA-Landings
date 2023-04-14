@@ -12,7 +12,7 @@ const Landing = () => {
 
     useEffect(() => {
         const getData = async () =>{
-            const resp = await fetch(`http://localhost:3000/api/astronomy/landings?${query}`);
+            const resp = await fetch(`https://nasa-landings.onrender.com/api/astronomy/landings?${query}`);
             const data = await resp.json();
             setLandings(data)
     

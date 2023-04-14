@@ -1,5 +1,5 @@
 {
-  "name": "proyectobackend",
+  "name": "NASA-Landings",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DaniValero/proyectobackend.git"
+    "url": "git+https://github.com/DaniValero/NASA-Landings.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DaniValero/proyectobackend/issues"
+    "url": "https://github.com/DaniValero/NASA-Landings/issues"
   },
-  "homepage": "https://github.com/DaniValero/proyectobackend#readme",
+  "homepage": "https://github.com/DaniValero/NASA-Landings",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",

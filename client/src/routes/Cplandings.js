@@ -18,7 +18,7 @@ const Cplandings = () => {
     const [newPost, setNewPost] = useState({})
 
     const getData = async () =>{
-        const resp = await fetch(`http://localhost:3000/api/astronomy/landings`);
+        const resp = await fetch(`https://nasa-landings.onrender.com/api/astronomy/landings`);
         const data = await resp.json();
         setLandings(data)
     }

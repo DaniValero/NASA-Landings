@@ -8,7 +8,7 @@ const Cpneas = () => {
     const [list, setList] = useState([])
 
     const getData = async () =>{
-        const resp = await fetch(`http://localhost:3000/api/astronomy/neas`);
+        const resp = await fetch(`https://nasa-landings.onrender.com/api/astronomy/neas`);
         const data = await resp.json();
         setNeas(data)
     }
